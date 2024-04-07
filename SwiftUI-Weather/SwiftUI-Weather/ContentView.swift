@@ -24,17 +24,17 @@ struct ContentView: View {
                                    imageName: "cloud.sun.fill",
                                    temperature: 74)
                     WeatherDayView(dayOfWeek: "WED",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 74)
+                                   imageName: "sun.rain.fill",
+                                   temperature: 65)
                     WeatherDayView(dayOfWeek: "THU",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 74)
+                                   imageName: "sun.snow.fill",
+                                   temperature: 66)
                     WeatherDayView(dayOfWeek: "FRI",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 74)
+                                   imageName: "cloud.drizzle.fill",
+                                   temperature: 60)
                     WeatherDayView(dayOfWeek: "SAT",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 74)
+                                   imageName: "cloud.heavyrain.fill",
+                                   temperature: 55)
                     
                 }
                 
