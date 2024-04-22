@@ -12,20 +12,21 @@ struct FrameworkGridView: View {
     
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 LazyVGrid(columns: viewModel.column) {
                     ForEach(MockData.frameworks) { framework in
-                        FrameworkTitleView(framework: framework)
-                            .onTapGesture {
-                                viewModel.selectedFramework = framework
-                            }
+                        NavigationLink(value: framework) {
+                            FrameworkTitleView(framework: framework)
+                        }
+                           
                     }
                 }
             }
             .navigationTitle("🍎 Frameworks")
-            .sheet(isPresented: $viewModel.isShowingDetailView) {
-                FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
+            .navigationDestination(for: Framework.self) { framework in
+                FrameworkDetailView(framework: framework)
+                
             }
         }
         
@@ -47,6 +48,7 @@ struct FrameworkTitleView: View {
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
+                .foregroundStyle(Color(.label))
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
