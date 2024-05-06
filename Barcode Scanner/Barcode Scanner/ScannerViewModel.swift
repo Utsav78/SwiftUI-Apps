@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct ScannerViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+final class ScannerViewModel: ObservableObject {
+    @Published var scannedCode = ""
+    @Published var alertItem: AlertItem?
+    
+    var statusText: String {
+        scannedCode.isEmpty ? "Not Yet Scanned" : scannedCode
+    }
+    
+    var statusTextColor: Color {
+        return scannedCode.isEmpty ? Color.red : Color.green
     }
 }
 
-#Preview {
-    ScannerViewModel()
-}
