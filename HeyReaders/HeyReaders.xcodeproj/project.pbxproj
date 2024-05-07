@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6F82ABD12BE36FD30059B506 /* HeyReadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82ABD02BE36FD30059B506 /* HeyReadersApp.swift */; };
-		6F82ABD32BE36FD30059B506 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82ABD22BE36FD30059B506 /* ContentView.swift */; };
 		6F82ABD52BE36FD40059B506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F82ABD42BE36FD40059B506 /* Assets.xcassets */; };
 		6F82ABD82BE36FD40059B506 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F82ABD72BE36FD40059B506 /* Preview Assets.xcassets */; };
+		6FB8D2552BEA65420069B69B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8D2542BEA65420069B69B /* SplashScreenView.swift */; };
+		6FB8D2572BEA65EC0069B69B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8D2562BEA65EC0069B69B /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F82ABCD2BE36FD30059B506 /* HeyReaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyReaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F82ABD02BE36FD30059B506 /* HeyReadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyReadersApp.swift; sourceTree = "<group>"; };
-		6F82ABD22BE36FD30059B506 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F82ABD42BE36FD40059B506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F82ABD72BE36FD40059B506 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FB8D2542BEA65420069B69B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		6FB8D2562BEA65EC0069B69B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				6F82ABD02BE36FD30059B506 /* HeyReadersApp.swift */,
-				6F82ABD22BE36FD30059B506 /* ContentView.swift */,
 				6F82ABD42BE36FD40059B506 /* Assets.xcassets */,
 				6F82ABD62BE36FD40059B506 /* Preview Content */,
+				6FB8D2542BEA65420069B69B /* SplashScreenView.swift */,
+				6FB8D2562BEA65EC0069B69B /* DashboardView.swift */,
 			);
 			path = HeyReaders;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F82ABD32BE36FD30059B506 /* ContentView.swift in Sources */,
 				6F82ABD12BE36FD30059B506 /* HeyReadersApp.swift in Sources */,
+				6FB8D2572BEA65EC0069B69B /* DashboardView.swift in Sources */,
+				6FB8D2552BEA65420069B69B /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
