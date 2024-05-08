@@ -17,7 +17,6 @@ struct SplashScreenView: View {
                 .foregroundColor(.blue)
         }
         .onAppear {
-            
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 
                 
