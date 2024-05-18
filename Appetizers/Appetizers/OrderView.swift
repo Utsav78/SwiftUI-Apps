@@ -10,7 +10,7 @@ import SwiftUI
 struct OrderView: View {
     var body: some View {
         NavigationView {
-            Text("Order View")
+            Text("🛍️ Order")
                 .navigationTitle("Order")
         }
     }
