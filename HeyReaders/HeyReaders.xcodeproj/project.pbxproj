@@ -19,6 +19,7 @@
 		6F82ABD02BE36FD30059B506 /* HeyReadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyReadersApp.swift; sourceTree = "<group>"; };
 		6F82ABD42BE36FD40059B506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F82ABD72BE36FD40059B506 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FAC5E9E2BFE33C4001175E2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6FB8D2542BEA65420069B69B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		6FB8D2562BEA65EC0069B69B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 				6F82ABD62BE36FD40059B506 /* Preview Content */,
 				6FB8D2542BEA65420069B69B /* SplashScreenView.swift */,
 				6FB8D2562BEA65EC0069B69B /* DashboardView.swift */,
+				6FAC5E9E2BFE33C4001175E2 /* PrivacyInfo.xcprivacy */,
 			);
 			path = HeyReaders;
 			sourceTree = "<group>";
