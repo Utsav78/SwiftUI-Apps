@@ -14,6 +14,7 @@
 		6F00F25F2BECAEE100088FFA /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00F25E2BECAEE100088FFA /* OrderView.swift */; };
 		6F00F2612BECAEFC00088FFA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00F2602BECAEFC00088FFA /* AccountView.swift */; };
 		6F00F2632BECAF0C00088FFA /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F00F2622BECAF0C00088FFA /* AppetizerListView.swift */; };
+		6F42A4822C076B2B00407CED /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42A4812C076B2B00407CED /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6F00F25E2BECAEE100088FFA /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		6F00F2602BECAEFC00088FFA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		6F00F2622BECAF0C00088FFA /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		6F42A4812C076B2B00407CED /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				6F00F25E2BECAEE100088FFA /* OrderView.swift */,
 				6F00F2602BECAEFC00088FFA /* AccountView.swift */,
 				6F00F2622BECAF0C00088FFA /* AppetizerListView.swift */,
+				6F42A4812C076B2B00407CED /* Appetizer.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F42A4822C076B2B00407CED /* Appetizer.swift in Sources */,
 				6F00F2612BECAEFC00088FFA /* AccountView.swift in Sources */,
 				6F00F25F2BECAEE100088FFA /* OrderView.swift in Sources */,
 				6F00F2532BECAE0400088FFA /* AppetizerTabView.swift in Sources */,
