@@ -13,8 +13,8 @@ struct APButton: View {
     
     var body: some View {
         Text(title)
-            //.font(.title3)
-            //.fontWeight(.semibold)
+            .font(.title3)
+            .fontWeight(.semibold)
             .frame(width: 260, height: 50)
             .foregroundColor(.white)
             .background(Color.brandPrimary)
